@@ -1,0 +1,874 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FF9c1A;
+    align-content: center;
+    align-items: center;
+    display: flex;
+
+    
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    margin: 50px;
+    background-color: #F2F5F9;
+    width: 1250px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.profil{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 510px;
+    border-radius: 10px;
+}
+
+.profil-title{
+    width: 300px;
+    height: 30px;
+    margin:10px;
+    border-radius: 10px;
+}
+
+.profil-title-text{
+    margin: 10px;
+    font-size: 20px;
+}
+.profil-title-text1{
+    color: #EC1B09;
+    
+}
+.about-me-content-p{
+    text-align: justify;
+}
+.profil-title-text2{
+    color: #FF9c1A;
+}
+.profil-content{
+    width: 350px;
+    height: 475px;
+    background-color: white;
+    margin:10px;
+    border-radius: 10px;
+}
+.profil-content-image{
+    width: 130px;
+    height: 130px;
+    margin-left: 110px;
+    border-radius: 5px;
+}
+.profil-content-image-data{
+    margin-top: 10px;
+    width: 130px;
+    height: 120px;
+    border-radius: 5px;
+}
+.profil-content-text-name{
+    margin-top: 5px;
+    font-style: bold;
+    text-align: center;
+}
+.profil-content-text-skill{
+    font-style: bold;
+    text-align: center;
+}
+.profil-social-media{
+    margin-top: 5px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-media{
+    background-color:rgb(211, 232, 243);
+    margin:5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.social-media-image{
+    width: 25px;
+    height: 25px;
+}
+.kontak{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: rgb(243, 246, 248);
+}
+.list-kontak{
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items:start;
+}
+.turun-dikit{
+    padding-top: 10px;
+}
+.content-kontak{
+    margin-left: 20px; 
+    font-size: 13px;
+}
+.list-kontak1{
+    border-radius: 10px;
+    height: 60px;
+    display: flex;
+    align-items:end;
+    justify-content: center;
+
+}
+.list-kontak2{
+    border-radius: 10px;
+    height: 40px;
+    width:150px;
+    background-color: #FF9c1A;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.text-download{
+    color: white;
+    font-size: 13px;
+    padding-left: 20px;
+
+}
+.download-resume{
+    fill:white;
+    width:20px;
+    height:20px;
+    position: absolute;
+    padding-left: -20px;
+}
+.icon-kontak{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+}
+.about-me{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 740px;
+    height: 510px;
+    border-radius: 10px;
+}
+.about-me-header{
+    display: flex;
+}
+.flex-garis{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.garis {
+    background-color: #FF9c1A;
+    margin-left: 30px; 
+    width: 250px;
+    height: 2px;
+    color: white;
+  }
+.garis2 {
+    background-color: #e3f1f5;
+    margin-left: 30px; 
+    width: 770px;
+    height: 2px;
+    color: white;
+  }
+.message-kontak{
+    margin-top: 7px;
+}
+.about-me-menu{
+    width: 740px;
+    height: 70px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.luar-menu{
+    background-color:rgb(211, 232, 243);
+    width: 320px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-list{
+    background-color:#F2F5F9;
+    margin:5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.menu-list-active{
+    background-color:#FF9c1A;
+    margin:5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.my-menu{
+    width: 20px;
+    height: 20px;
+}
+.text-menu{
+    margin-top: -2px;
+    font-size: 12px;
+    color: black;
+}
+.text-link{
+    text-decoration: none;
+}
+.text-menu-active{
+    
+    color: white;
+    margin-top: -2px;
+    font-size: 12px;
+    
+}
+.my-menu-active{
+    
+    fill: white;
+    width: 20px;
+    height: 20px;
+    stroke: white;
+}
+.my-menu-stroke{
+    stroke: white;
+}
+.my-menu-stroke2{
+    stroke: black;
+}
+.about-me-content{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:white;
+    width: 710px;
+    height: 350px;
+    border-radius: 10px;
+}
+.about-me-intro{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.about-me-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-me-skill{
+    display: flex;
+
+}
+.my-skill{
+    width: 600px;
+    height: 90px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.my-skill-title{
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.my-skill-content{
+    margin-top: 5px;
+    font-size: 12px;
+}
+.bg-skill{
+    background-color: rgb(211, 232, 243);
+}
+.bg-skill2{
+    background-color: rgb(238, 204, 215);
+}
+.bg-skill3{
+    background-color: rgb(255, 227, 224);
+}
+.bg-skill4{
+    background-color: rgb(253, 244, 242);
+}
+.bg-skill5{
+    background-color: rgb(229, 233, 235);
+    border-color: rgb(255, 255, 255);
+}
+.image-skill{
+    position: absolute;
+    width: 20px;
+    height:20px;
+}
+.my-skill-title-span{
+    padding-left: 25px;
+}
+.my-resume{
+    margin-top: 5x;
+    margin-bottom: 5px;
+    display: flex;
+}
+.my-resume-list{
+    width: 600px;
+    height: 160px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.resume-title{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.resume-title2{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+.resume-content-list{
+    height: 60px;
+    margin: 5px;
+}
+.education-year{
+    color: #bbada2;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.education-in{
+    margin-left: 20px;
+}
+.education-studi{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.my-resume-skill{
+    display: flex;
+    margin-top: -5px;
+    width: 770px;
+    height: 155px;
+
+}
+.about-me-resume{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:white;
+    width: 710px;
+    height: 200px;
+    border-radius: 10px;
+}
+.resume-list-skill{
+    display: flex;
+    width:330px;
+}
+.skills{
+    background-color: rgb(250, 255, 255);
+    width: 80px;
+    height: 20px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+.skills2{
+    background-color: rgb(250, 255, 255);
+    width: 130px;
+    height: 20px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+.m-contact{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.m-contact2{
+    padding-left: 20px;
+}
+.kontak2{
+    margin-top: 5px;
+    height: 140px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(243, 246, 248);
+}
+
+.desc-contact{
+    font-weight: bold;
+}
+.kontak-submit{
+    border-radius: 5px;
+    margin-top: 7px;
+    width: 80px;
+    height: 30px;
+    border-color: orange;
+}
+@media only screen and (max-width: 600px) {
+    .content{
+        align-content: center;
+        margin: 50px;
+        background-color: #F2F5F9;
+        width: 500px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .profil{
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        width: 400px;
+        height: 510px;
+        border-radius: 10px;
+    }
+    
+    .profil-title{
+        width: 300px;
+        height: 30px;
+        margin:10px;
+        border-radius: 10px;
+    }
+    
+    .profil-content{
+        width: 350px;
+        height: 475px;
+        background-color: white;
+        margin:10px;
+        border-radius: 10px;
+    }
+    .profil-content-image{
+        width: 130px;
+        height: 130px;
+        margin-left: 110px;
+        border-radius: 5px;
+    }
+    .profil-content-image-data{
+        margin-top: 10px;
+        width: 130px;
+        height: 120px;
+        border-radius: 5px;
+    }
+    
+    .profil-social-media{
+        margin-top: 5px;
+        height: 50px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-me{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .garis {
+        background-color: #FF9c1A;
+        margin-left: 30px; 
+        width: 120px;
+        height: 2px;
+        color: white;
+      }
+    .garis2 {
+        background-color: #e3f1f5;
+        margin-left: 30px; 
+        width: 120px;
+        height: 2px;
+        color: white;
+      }
+    
+    .about-me-menu{
+        width: 300px;
+        height: 70px;
+        margin-left: 90px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .luar-menu{
+        background-color:rgb(211, 232, 243);
+        width: 320px;
+        height: 70px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text-menu{
+        margin-top: -2px;
+        font-size: 12px;
+        color: black;
+    }
+    .text-link{
+        text-decoration: none;
+    }
+    
+    .about-me-content{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        margin-left: 50px;
+        padding-right: 30px;
+        background-color:white;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .about-me-skill{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .my-skill{
+        width: 300px;
+        height: 90px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .my-skill-title{
+        font-size: 16px;
+        font-weight: bold;
+    
+    }
+    .my-skill-content{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .image-skill{
+        position: absolute;
+        width: 20px;
+        height:20px;
+    }
+    .my-skill-title-span{
+        padding-left: 25px;
+    }
+    .my-resume{
+        margin-top: 5x;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .my-resume-list{
+        width: 300px;
+        height: auto;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    .my-resume-skill{
+        display: flex;
+        flex-direction: column;
+        padding-top: -15px;
+        width: 375px;
+        height: auto;
+    
+    }
+    .about-me-resume{
+        margin-top: 10px;
+        padding-top: 10px;
+        margin-left: 7px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color:white;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .resume-list-skill{
+        display: flex;
+        width:330px;
+    }
+    .skills{
+        background-color: rgb(250, 255, 255);
+        width: 100px;
+        height: 20px;
+        margin: 2px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .skills2{
+        background-color: rgb(250, 255, 255);
+        width: 175px;
+        height: 20px;
+        margin: 2px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .m-contact{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .m-contact2{
+        padding-left: 20px;
+    }
+    .kontak2{
+        margin-top: 5px;
+        height: auto;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: rgb(243, 246, 248);
+    }
+    
+    .kontak-submit{
+        border-radius: 5px;
+        margin-top: 7px;
+        width: 80px;
+        height: 30px;
+        border-color: orange;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .content{
+        align-content: center;
+        margin: 20px;
+        background-color: #F2F5F9;
+        width: 390px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+    }
+    .profil{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 375px;
+        height: 510px;
+        border-radius: 10px;
+    }
+    
+    .profil-title{
+        width: 300px;
+        height: 30px;
+        margin:10px;
+        border-radius: 10px;
+    }
+    
+    .profil-content{
+        width: 350px;
+        height: 475px;
+        background-color: white;
+        margin:10px;
+        border-radius: 10px;
+    }
+    .profil-content-image{
+        width: 130px;
+        height: 130px;
+        margin-left: 110px;
+        border-radius: 5px;
+    }
+    .profil-content-image-data{
+        margin-top: 10px;
+        width: 130px;
+        height: 120px;
+        border-radius: 5px;
+    }
+    
+    .profil-social-media{
+        margin-top: 5px;
+        height: 50px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-me{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .garis {
+        background-color: #FF9c1A;
+        margin-left: 30px; 
+        width: 120px;
+        height: 2px;
+        color: white;
+      }
+    .garis2 {
+        background-color: #e3f1f5;
+        margin-left: 30px; 
+        width: 120px;
+        height: 2px;
+        color: white;
+      }
+    
+    .about-me-menu{
+        width: 300px;
+        height: 70px;
+        margin-left: 40px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .luar-menu{
+        background-color:rgb(211, 232, 243);
+        width: 320px;
+        height: 70px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text-menu{
+        margin-top: -2px;
+        font-size: 12px;
+        color: black;
+    }
+    .text-link{
+        text-decoration: none;
+    }
+    
+    .about-me-content{
+        margin-top: 10px;
+        margin-bottom: 30px;
+        padding-top: 10px;
+        margin-left: 15px;
+        padding-right: 30px;
+        background-color:white;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .about-me-skill{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .my-skill{
+        width: 300px;
+        height: 90px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .my-skill-title{
+        font-size: 16px;
+        font-weight: bold;
+    
+    }
+    .my-skill-content{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    .image-skill{
+        position: absolute;
+        width: 20px;
+        height:20px;
+    }
+    .my-skill-title-span{
+        padding-left: 25px;
+    }
+    .my-resume{
+        margin-top: 5x;
+        margin-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .my-resume-list{
+        width: 300px;
+        height: auto;
+        margin-bottom: 10px;
+        margin-right: 20px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    
+    .my-resume-skill{
+        display: flex;
+        flex-direction: column;
+        padding-top: -15px;
+        width: 370px;
+        height: auto;
+    
+    }
+    .about-me-resume{
+        margin-top: 10px;
+        padding-top: 10px;
+        margin-left: 7px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color:white;
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+    }
+    .resume-list-skill{
+        display: flex;
+        width:330px;
+    }
+    .skills{
+        background-color: rgb(250, 255, 255);
+        width: 100px;
+        height: 20px;
+        margin: 2px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .skills2{
+        background-color: rgb(250, 255, 255);
+        width: 175px;
+        height: 20px;
+        margin: 2px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .m-contact{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .m-contact2{
+        padding-left: 20px;
+    }
+    .kontak2{
+        margin-top: 5px;
+        height: auto;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        background-color: rgb(243, 246, 248);
+    }
+    
+    .kontak-submit{
+        border-radius: 5px;
+        margin-top: 7px;
+        width: 80px;
+        height: 30px;
+        border-color: orange;
+    }
+}
